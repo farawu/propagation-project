@@ -65,12 +65,7 @@ void peblock(DyArray2<Complex<double> > U, double dx, double dy, double dz, int 
 
 	DyArray2<Complex<double> > aa (1, 3, 0);
     DyArray2<Complex<double> > bb (1, 3, 0);
-    aa[0][0]=1.886033328850450 + Complex<double>(0,1)*3.110769532710565;
-    aa[0][1]=-1.284516310680830 + Complex<double>(0,1)*3.162867001397705;
-    aa[0][2]=0.000000000000000 + Complex<double>(0,1)*0.000000000000000;
-    bb[0][0]=3.139639982134422 -  Complex<double>(0,1)*2.600686303563043;
-    bb[0][1]=0.181025880628569 - Complex<double>(0,1)*4.323600479440987;
-    bb[0][2]=-2.719148844593372  - Complex<double>(0,1)*2.510039950836666;
+
 
 	
     DyArray2<Complex<double> > Rx(Xmax, Ymax, 0);
