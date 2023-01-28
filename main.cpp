@@ -7,7 +7,7 @@
 #include<hdf5.h>
 using namespace std;
 
-/////////////////////////////data save in sbopaperout.h5///////////////
+/////////////////////////////////////////
 #define SAVE "sbopaperout.h5"
 
 #define YZMAPR "yzmapr"
@@ -29,7 +29,7 @@ using namespace std;
 #endif
 #ifdef WIN32
 
-/////////////////////////////time///////////////////////////
+///////////////////////////////////////////////////
 int gettimeofday(struct timeval *tp, void *tzp)
 {
 	time_t clock;
