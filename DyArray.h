@@ -4,7 +4,7 @@
 #include "MyComplex.h"
 #include "hdf5.h"
 #include <complex>
-//���������������
+//
 template<typename T>
 class DyArray2{
 	int dims[2];
@@ -215,11 +215,11 @@ DyArray2<T> read2(const char *file_name, const char *dataset_name){
 
 	status = H5Dread(dataset, typeid(T) == typeid(int) ? H5T_NATIVE_INT : (typeid(T) == typeid(float) ? H5T_NATIVE_FLOAT : H5T_NATIVE_DOUBLE), memspace, dataspace, H5P_DEFAULT, data_out.getData());
 
-	// �ر�dataset��ض���
+	// 
 	status = H5Dclose(dataset);
 	status = H5Sclose(dataspace);
 
-	// �ر��ļ�����
+	// 
 	status = H5Fclose(file);
 	return data_out;
 }
