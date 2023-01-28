@@ -61,7 +61,7 @@ void pecsb2( double f_MHz,double res_pe,int X,int Y,double Z,double dz,std::comp
 	hcen2=30;
 	beta1=15*pi/180;
 	beta2=15*pi/180;
-////////////////////source///////////////////////////
+///////////////////////////////////////////////
 
 	for(int i=1;i<Xmax;i++){
 		for(int j=1;j<Ymax;j++){
